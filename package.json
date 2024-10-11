@@ -1,0 +1,30 @@
+{
+  "name": "app-blogs",
+  "version": "1.0.0",
+  "description": "Api blogs list",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "lint": "eslint . --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nodejs",
+    "javascript",
+    "express"
+  ],
+  "author": "Adan Guerra",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1",
+    "mongoose": "^8.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7",
+    "standard": "^17.1.2"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }  
+}
